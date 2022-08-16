@@ -1,0 +1,141 @@
+{
+  "gallery": [
+    {
+      "src": "img/gal-1.jpeg",
+      "title": "Gallery image 1",
+      "id": 1
+    },
+    {
+      "src": "img/gal-2.jpeg",
+      "title": "Gallery image 2",
+      "id": 2
+    },
+    {
+      "src": "img/gal-3.jpeg",
+      "title": "Gallery image 3",
+      "id": 3
+    },
+    {
+      "src": "img/gal-4.jpeg",
+      "title": "Gallery image 4",
+      "id": 4
+    },
+    {
+      "src": "img/gal-5.jpeg",
+      "title": "Gallery image 5",
+      "id": 5
+    },
+    {
+      "src": "img/gal-6.jpeg",
+      "title": "Gallery image 6",
+      "id": 6
+    },
+    {
+      "src": "img/gal-7.jpeg",
+      "title": "Gallery image 7",
+      "id": 7
+    },
+    {
+      "src": "img/gal-8.jpeg",
+      "title": "Gallery image 8",
+      "id": 8
+    },
+    {
+      "src": "img/gal-9.jpeg",
+      "title": "Gallery image 9",
+      "id": 9
+    },
+    {
+      "src": "img/gal-10.jpeg",
+      "title": "Gallery image10",
+      "id": 10
+    },
+    {
+      "src": "img/gal-11.jpeg",
+      "title": "Gallery image 11",
+      "id": 11
+    },
+    {
+      "src": "img/gal-12.jpeg",
+      "title": "Gallery image 12",
+      "id": 12
+    },
+    {
+      "src": "img/gal-13.jpeg",
+      "title": "Gallery image 13",
+      "id": 13
+    },
+    {
+      "src": "img/gal-14.jpeg",
+      "title": "Gallery image 14",
+      "id": 14
+    }
+  ],
+  "realators": [
+    {
+      "image": "img/realtor-1.jpeg",
+      "name": "Erik Feinman",
+      "numberOfSold": "258 houses sold"
+    },
+    {
+      "image": "img/realtor-2.jpeg",
+      "name": "Kim Brown",
+      "numberOfSold": "212 houses sold"
+    },
+    {
+      "image": "img/realtor-3.jpeg",
+      "name": "Toby Ramsy",
+      "numberOfSold": "258 houses sold"
+    }
+  ],
+  "Houses": [
+    {
+      "image": "img/house-1.jpeg",
+      "header": "Butifull Family House",
+      "country": "USA",
+      "numberOfRooms": "5 rooms",
+      "meters": "325m",
+      "price": "$1,200,000"
+    },
+    {
+      "image": "img/house-2.jpeg",
+      "header": "Modern Glass Vila",
+      "country": "CANADA",
+      "numberOfRooms": "6 rooms",
+      "meters": "450m",
+      "price": "$2,750,000"
+    },
+    {
+      "image": "img/house-3.jpeg",
+      "header": "Couzy Country House",
+      "country": "UK",
+      "numberOfRooms": "4 rooms",
+      "meters": "250m",
+      "price": "$850,000"
+    },
+    {
+      "image": "img/house-4.jpeg",
+      "header": "Large Rustical Vila",
+      "country": "PORTUGAL",
+      "numberOfRooms": "6 rooms",
+      "meters": "450m",
+      "price": "$1,950,000"
+    },
+    {
+      "image": "img/house-5.jpeg",
+      "header": "Magestic Palace House",
+      "country": "GERMANY",
+      "numberOfRooms": "18 rooms",
+      "meters": "4230m",
+      "price": "$9,500,000"
+    },
+    {
+      "image": "img/house-6.jpeg",
+      "header": "Modern Family Appartment",
+      "country": "ITALY",
+      "numberOfRooms": "3 rooms",
+      "meters": "180m",
+      "price": "$600,000"
+    }
+  ]
+}

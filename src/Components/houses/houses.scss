@@ -1,0 +1,60 @@
+@import './../../sass/Veriabls.scss';
+.houses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 5vw 8vw;
+    padding: 10%;
+    margin-top: 5px;
+   
+  @media (max-width:768px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6,1fr);
+    margin: 30px;}
+ 
+    .house{
+     margin: 10% 15%;
+     width:100%;
+     img{
+         width: 250px;
+         height: 150px;
+     }
+     .btn-spec{
+         width:180px;
+         height: 40px;
+         background-color:rgba(16, 29, 44, 0.93);
+         color: white;
+         font-family: $font-display;
+         font-size: 14px;
+         position: relative;
+         top: -25px;
+     }
+     .details{
+         margin-top: 50px;
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         grid-gap: 5vw 8vw;
+ 
+         p{
+             
+             font-family: $font-primary
+         }
+     }
+     .btn-contact{
+        width:180px;
+        height: 40px;
+         background-color: $color-primary;
+         color: $color-grey-light-1;
+         font-family: $font-display;
+         text-transform: uppercase;
+         font-weight: bold;
+         border: none;
+         margin-top:25px;
+             &:hover {
+                 background-color: $color-primary-dark;
+             }
+     }
+ 
+    }
+ }
+ 

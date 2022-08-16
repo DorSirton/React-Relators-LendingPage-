@@ -1,0 +1,70 @@
+@import './../../sass/Veriabls.scss';
+
+.story {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-left: 100px;
+
+    .pictures {
+        display: grid;
+        grid-template-columns: repeat(7,1fr);
+        grid-template-rows: repeat(6,1fr);
+        background-image: linear-gradient(rgba(198, 153, 99, 0.5), rgba(198, 153, 99, 0.5)), url('./../../../public/img/back.jpg');
+
+
+        .pic-2 {
+            grid-area: 2/2/6/7;
+            width: 100%;
+        }
+
+        .pic-3 {
+            grid-area: 3/3/6/8;
+            width: 115%;
+            height: 70%;
+        }
+
+    }
+
+    .paragraph-story {
+        margin-left:130px;
+        h3 {
+            color: $color-primary;
+            font-family: $font-primary;
+            font-weight: 200;
+            margin-top: 20px;
+        }
+
+        h1 {
+            color: $color-grey-dark-1;
+            font-family: $font-display;
+            font-weight: bold;
+            margin-top: 20px;
+
+        }
+
+        p {
+            font-family: $font-primary;
+            margin-top: 20px;
+            font-size: medium;
+            color: $color-secondary
+        }
+
+        button {
+            padding: 15px 30px;
+            background-color: $color-primary;
+            color: $color-grey-light-1;
+            font-family: $font-display;
+            text-transform: uppercase;
+            border: 0;
+            margin-top: 2%;
+
+            &:hover {
+                background-color: $color-primary-dark;
+            }
+        }
+
+
+    }
+
+}

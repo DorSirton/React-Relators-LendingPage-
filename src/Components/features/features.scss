@@ -1,0 +1,29 @@
+
+@import './../../sass/Veriabls.scss';
+.features{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5vw 8vw;
+    padding: 5%;
+    font-family: $font-primary;
+ 
+    @media (max-width:1024px) {
+       grid-template-columns: 1fr 1fr;
+    }
+    @media (max-width:768px) {
+     grid-template-columns: 1fr;
+     margin: 30px;
+  }
+ 
+ 
+    .feature{
+        margin: 10% 15%;
+        width:45%;
+ 
+        h4{
+         margin-bottom: 5%;
+         color: $color-grey-dark-1;
+         
+        }
+    }
+ }
